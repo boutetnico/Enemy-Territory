@@ -17,6 +17,10 @@ ipch/
 *.pdb
 *.lib
 *.idb
+src/Debug*
+src/*/Debug
+src/Release*
+src/*/Release
 
 # Xcode related
 src/*.xcodeproj/project.xcworkspace
