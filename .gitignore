@@ -1,0 +1,28 @@
+# Compilation related
+_build/*/*.*
+.deps
+.libs
+*.lo
+*.la
+*.o
+*.obj
+
+
+# VS related
+ipch/
+*.sdf
+*.opensdf
+*.ncb
+*.suo
+*.pdb
+*.lib
+*.idb
+
+# Xcode related
+src/*.xcodeproj/project.xcworkspace
+src/*.xcodeproj/xcuserdata
+
+# Others
+*~
+*.log
+.DS_Store
